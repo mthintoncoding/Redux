@@ -26,7 +26,9 @@ function squareClick(){
 }
 squareClick();
 
+function compareScores(){
 
+};
 
 function begins_game(){
 $('.begin_game').click(function(event){
