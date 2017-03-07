@@ -27,7 +27,7 @@ function squareClick(){
 squareClick();
 
 function compareScores(){
-
+	console.log("Player X Wins!")
 };
 
 function begins_game(){
