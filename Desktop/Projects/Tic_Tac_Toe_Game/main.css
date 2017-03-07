@@ -1,0 +1,98 @@
+body{
+	background-color: grey
+
+}
+
+main{
+	font-size: 0;
+	width: 100%;
+	position:;
+}
+
+.X{
+	position: absolute;
+	top : 0;
+	left : 0;
+	color: black;
+	background-color:  blue;
+	right : 0;
+	bottom: 0;
+	font-size: 65px;
+	line-height: 65px;
+	z-index: 1000;
+}
+
+.O{
+	position: absolute;
+	top : 0;
+	left : 0;
+	color: black;
+	background-color:  blue;
+	right : 0;
+	bottom: 0;
+	font-size: 65px;
+	line-height: 65px;
+}
+
+.blue{
+	background-color: blue;
+}
+
+.hidden{
+	display: none;
+}
+
+.title{
+	text-align: center;
+}
+
+.instructions{
+	text-align: center;
+}
+
+.button_holder{
+	text-align: center;
+	margin: auto;
+}
+
+.container{
+	height: 200px;
+	width: 200px;
+	position: relative;
+	text-align: center;
+	margin: auto;
+	margin-top: 100px;
+}
+
+.row{
+	width: 100%;
+	height: 33.33%;
+	position: relative;
+	display: inline-block;
+}
+
+.square{
+	box-sizing: border-box;
+	width: 33.33%;
+	height: 33.33%;
+	border: 5px solid black;
+	display: inline-block;
+	position: relative;
+	z-index: 100;
+}
+
+div .s1, .s2, .s3{
+	border-top: none;
+}
+
+div .s7, .s8, .s9{
+	border-bottom: none;
+}
+
+div .s3, .s6, .s9{
+	border-right: none;
+}
+
+div .s1, .s4, .s7{
+	border-left: none;
+}
