@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz App</title>
+
+	<link rel='stylesheet' href='main.css'>
+</head>
+<body>
+<main>
+	<header><!--This is where the user starts. They will click button to start quiz  -->
+	<h1>A game of Quiz...</h1>
+	<div class='container'>
+	<h1>Click to Start</h1>
+	<button class='js-quiz-Starter' type='submit'>Start Here</button><!--Ol' click-a-rooski  -->
+	</div>
+	</header>
+	<!-- Here comes the layout for the mulitple choice questions -->
+	
+	<div class='first-Question hidden'>
+	<form>
+		<p>Question <span class='count'>1</span>/10</p> 
+		<p class='textFirstQuestion'> 1. Who is the singer of Led Zeppelin?</p>
+		<input type='radio' name='options' id='option-a' value='0' checked>
+		<label for='option-a'>Jimmy Paige</label>
+
+		<input type='radio' name='options' id='option-b' value='1'>
+		<label for='option-b'>Robert Plant</label>
+
+		<input type='radio' name='options' id='option-c' value='2'>
+		<label for='option-c'>John Bonham</label>
+
+		<input type='radio' name='options' id='option-d' value='3'>
+		<label for='option-d'>John Paul Jones</label>
+
+		<button class='final-Answer' type='submit'>Submit</button>
+	</form>
+	</div>
+
+	<p class='final_message hidden'>So... you got <span class='number_right'></span> out of 10</p>
+
+
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='app.js'></script>
+</main>
+</body>
+</html>

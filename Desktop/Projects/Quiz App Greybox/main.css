@@ -1,0 +1,23 @@
+main{
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.container{
+	border: 1px solid grey;
+	padding: 20px;
+	text-align: center;
+}
+
+label {
+	display: block;
+}
+
+
+input {
+	display: block;
+}
+
+.hidden{
+	display: none;
+}
