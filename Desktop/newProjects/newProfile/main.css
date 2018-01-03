@@ -1,0 +1,200 @@
+body {
+  font-family: 'Arimo', sans-serif;
+  background-size: cover;
+  margin: 0;
+}
+
+.elementToFadeInAndOut {
+    width:100%;
+    position: absolute;
+    -webkit-animation: fadeinout 4s linear forwards;
+    animation: fadeinout 4s linear forwards;
+}
+
+@keyframes fadeinout {
+  0%,100% { opacity: 0;}
+  50% { opacity: 1; }
+}
+
+.aboutMeContainer {
+
+}
+
+.title {
+  text-align: center;
+  font-family: 'Arimo', sans-serif;
+}
+
+.outerSpaceContainer {
+  margin-top: 25px;
+  background-image: url('https://img.purch.com/w/660/aHR0cDovL3d3dy5zcGFjZS5jb20vaW1hZ2VzL2kvMDAwLzAxMi84NTAvb3JpZ2luYWwvTWFuZ2FpYS1taWxreS13YXkuanBn');
+  background-size: cover;
+  background-position: center center;
+  border: 1px solid black;
+  width: 100%;
+  height: 600px;
+  opacity: 0.9;
+}
+
+.outerSpaceContainer:hover {
+  background-image: url('https://s-media-cache-ak0.pinimg.com/originals/a8/4b/d0/a84bd079c68e26a88e4b4f7db0b13bf3.gif');
+  opacity: 0.75;
+  background-size: auto;
+}
+
+.description {
+  font-size: 25px;
+  padding-top: 35px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.line {
+  border-top: 1px solid black;
+  margin-top: 35px;
+  margin-right: 25px;
+  margin-left: 25px;
+  margin-bottom: 35px;
+}
+
+.appsContainerTitle {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.inner {
+  height: 400px;
+  width: 49.5%;
+  display: inline-block;
+  font-size: 20px;
+  position: absolute;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.guitarAppContainer {
+  font-size: 0;
+  width: 100%;
+  opacity: 0.75;
+  position: relative;
+}
+
+.guitarApp {
+  border: 1px solid black;
+  background-image: url('https://media.livenation.com/bos/e5/ee/bc/f4e05b915b827ddb8e656ac6de7a7795b5.jpg');
+  color: white;
+}
+
+.guitarAppNeighbor1 {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt8EMjCKB-LOEmRlfETM1Jj3U5TX8WzoSW_Cb-HyKdTwTf1jH2DA');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  position: relative;
+}
+
+.recipesAppContainer {
+  font-size: 0;
+  width: 100%;
+  opacity: 0.75%;
+  position: relative;
+}
+
+.recipesApp {
+ border: 1px solid black;
+ background-image: url('http://cdn.images.express.co.uk/img/dynamic/11/590x/veg1-634257.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.recipesAppNeighbor1 {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAymaRIUcS2FI3_boQTJ-Tk_aDG6MhtFQfXR6DqgHNgpyrjueb');
+  position: relative;
+}
+
+.barberShopAppContainer {
+  font-size: 0;
+  width: 100%;
+  opacity: 75%;
+  position: relative;
+}
+
+.innerBarber {
+  height: 400px;
+  width: 49.5%;
+  display: inline-block;
+  font-size: 20px;
+  position: absolute;
+  border: 1px solid black;
+  padding-left: 5px;
+}
+
+.barberShopApp {
+ border: 1px solid black;
+ background-image: url('http://www.nuimageonline.com/img/homepage/barbershop-view-2.jpg');
+}
+
+.barberShopAppNeighbor1{
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/39/Barberpole_illusion_animated.gif');
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+
+.appDescription {
+  position: absolute;
+}
+
+.liveDemoButton {
+  position: absolute;
+  width: 85px;
+  height: 35px;
+  border-radius: 10px;
+  bottom: 50px;
+  left: 30px;
+  background-color: #cc5500;
+
+}
+
+.sourceCodeButton {
+  position: absolute;
+  width: 85px;
+  height: 35px;
+  border-radius: 10px;
+  bottom: 50px;
+  left: 125px;
+  background-color: #cc5500;
+}
+
+.socialMediaContainer {
+  text-align: center;
+}
+ .facebook {
+  padding-top: 25px;
+  width: 25px;
+  height: 25px;
+ }
+
+ .instagram {
+  padding-top: 25px;
+  padding-left: 25px;
+  width: 25px;
+  height: 25px;
+ }
+
+ .linkedIn {
+   padding-top: 25px;
+   padding-left: 25px;
+   width: 25px;
+   height: 25px
+ }
+
+ .github {
+   padding-top: 25px;
+   width: 25px;
+   height: 25px;
+   padding-left: 25px;
+ }
